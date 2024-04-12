@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    /* Styling for various sections and elements */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f1f1f1;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .hero-section {
+      text-align: center;
+      padding: 50px 0;
+      background-image: url("hero-banner.jpg"); /* Replace with background image */
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+
+    .search-bar {
+      display: flex;
+      gap: 10px;
+    }
+
+    .search-bar input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      flex-grow: 1;
+    }
+
+    .search-bar button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    .reviews article {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .reviews article .rating {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 5px;
+    }
+
+    .reviews article .rating input {
+      display: none;
+    }
+
+    .reviews article .rating label {
+      cursor: pointer;
+      color: #ddd;
+      font-size: 20px;
+    }
+
+    .reviews article .rating label:hover,
+    .reviews article .rating label:hover ~ label,
+    .reviews article .rating input:checked ~ label {
+      color: gold;
+    }
+
+    .social-sharing {
+      display: flex;
+      gap: 10px;
+    }
+
+    .social-sharing a {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .social-sharing a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .about-us h3 {
+      margin-bottom: 10px;
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .team-member {
+      flex-basis: calc(33% - 10px); /* Adjust width for team member cards */
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .team-member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 5px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    .contact-form button {
+      background-
